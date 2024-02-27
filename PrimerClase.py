@@ -22,3 +22,5 @@ print ("z=", z)
 SEGUNDO PROGRAMA DE LA CLASE
 """
 archivo= "united2.txt"
+
+##EDITANDO ALGO PARA LA TAREA
