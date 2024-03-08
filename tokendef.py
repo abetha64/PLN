@@ -14,3 +14,5 @@ with open(carpeta_nombre+"archivo_nuevo.txt","r") as archivo:
  tokens=nltk.word_tokenize(texto,"spanish")
  riqueza_lexica=riqueza_lexica(tokens)
  print(riqueza_lexica)
+
+ #odatu
