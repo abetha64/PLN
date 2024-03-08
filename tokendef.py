@@ -15,4 +15,4 @@ with open(carpeta_nombre+"archivo_nuevo.txt","r") as archivo:
  riqueza_lexica=riqueza_lexica(tokens)
  print(riqueza_lexica)
 
- #odatu
+ #odatu comoestas
