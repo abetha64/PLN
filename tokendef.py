@@ -13,6 +13,14 @@ with open(carpeta_nombre+"archivo_nuevo.txt","r") as archivo:
  texto=archivo.read()
  tokens=nltk.word_tokenize(texto,"spanish")
  riqueza_lexica=riqueza_lexica(tokens)
- print(riqueza_lexica)
+ #print(riqueza_lexica)
 
- #odatu comoestas
+#odatu comoestas
+conteo_individual=tokens.count("el")
+print("TOTAL DE VECES EN TEXTO => ",conteo_individual)
+palabras_totales=len(tokens)
+porcentaje=100*conteo_individual/palabras_totales
+print("el porcentaje es:", porcentaje,"%")
+
+
+ 
