@@ -2,10 +2,8 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-# URL de la página web que quieres analizar
 url = "https://classroom.google.com/c/NjYxMDgwMjE1OTU4/a/NjI4NzMyMzAwNzY4/details"
 
-# Obtener el contenido HTML de la página web
 respuesta = requests.get(url)
 contenido_html = respuesta.text
 
@@ -21,3 +19,4 @@ resultados_busqueda = expresion_regular.finditer(texto_visible)
 
 for resultado in resultados_busqueda:
     print(resultado.group(0))
+
