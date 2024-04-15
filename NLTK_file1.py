@@ -2,7 +2,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://latam.casadellibro.com/libros-ebooks-gratis/184"
+url = input("Ingresa una URL por favor: ") #"https://latam.casadellibro.com/libros-ebooks-gratis/184"
 
 respuesta = requests.get(url)
 contenido_html = respuesta.text
