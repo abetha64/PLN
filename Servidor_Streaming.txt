@@ -1,0 +1,102 @@
+
+Facultad de Ingeniería Mecánico y Eléctrica
+Ingeniería en Computación Inteligente
+Alba Beth-birai López Aguilar
+Arquitectura de Servidores
+Servidores de tipo Streaming
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SERVIDOR STREAMING
+Un servidor de streaming es un equipo informático especialmente diseñado para la transmisión de contenido multimedia (audio, vídeo o ambos) a través de internet. Funciona como un intermediario entre el proveedor del contenido y los usuarios que lo consumen.
+Tipos de servidores de streaming:
+Servidores de streaming de audio: Se utilizan para transmitir música, podcasts, radio en vivo, etc.
+Servidores de streaming de vídeo: Se utilizan para transmitir películas, series, eventos en vivo, etc.
+Servidores de streaming multiprotocolo: Soporta la transmisión de audio y vídeo simultáneamente
+Características importantes
+Capacidad de almacenamiento: El servidor debe tener suficiente espacio para almacenar el contenido multimedia que se va a transmitir.
+Ancho de banda: El servidor debe tener un ancho de banda suficiente para soportar la cantidad de usuarios que se van a conectar al mismo tiempo.
+Procesador: El servidor debe tener un procesador potente para codificar y transcodificar el contenido multimedia.
+Memoria RAM: El servidor debe tener suficiente memoria RAM para almacenar en caché el contenido multimedia y mejorar el rendimiento.
+Software de streaming: El servidor debe tener instalado un software de streaming que gestione la distribución del contenido multimedia.
+Tipos de hardware de servidor disponibles en el mercado
+Procesadores: Intel Xeon, AMD EPYC, ARM Cortex-A72
+Memoria RAM: DDR4, DDR5
+Almacenamiento: HDD, SSD, NVMe
+Tarjetas de red: 10GbE, 40GbE, 100GbE
+Principales sistemas operativos de servidor
+Windows Server: Ofrece una interfaz gráfica intuitiva y una amplia gama de herramientas de administración.
+Linux Server: Es una opción más flexible y segura que Windows Server. Algunos ejemplos populares son Ubuntu Server, CentOS y Red Hat Enterprise Linux.
+Unix: Es un sistema operativo robusto y escalable, pero puede ser complejo de administrar.
+
+Diferencias entre distintos software y hardware para este tipo de servidores
+Hardware
+Procesador: El procesador es uno de los componentes más importantes de un servidor de streaming. Se encarga de codificar y transcodificar el contenido multimedia, por lo que es importante elegir un procesador potente con suficientes núcleos y threads. Algunas opciones populares son:
+Intel Xeon: Los procesadores Intel Xeon son una opción popular para servidores de streaming debido a su alto rendimiento y escalabilidad.
+AMD EPYC: Los procesadores AMD EPYC son otra opción popular para servidores de streaming que ofrecen un alto rendimiento a un precio competitivo.
+ARM Cortex-A72: Los procesadores ARM Cortex-A72 son una opción más eficiente en cuanto a energía que los procesadores Intel Xeon y AMD EPYC, pero pueden no ofrecer el mismo nivel de rendimiento.
+Memoria RAM: La memoria RAM es importante para almacenar en caché el contenido multimedia y mejorar el rendimiento. Se recomienda tener al menos 16 GB de memoria RAM para un servidor de streaming, pero es posible que se necesite más dependiendo de la cantidad de usuarios y el tipo de contenido que se transmita.
+Almacenamiento: El almacenamiento es necesario para almacenar el contenido multimedia que se va a transmitir. Se pueden usar discos duros tradicionales (HDD) o discos de estado sólido (SSD). Los SSD son más rápidos que los HDD, pero también son más caros.
+Tarjetas de red: Las tarjetas de red son importantes para proporcionar un ancho de banda suficiente para la transmisión de contenido multimedia. Se recomienda usar tarjetas de red de 10 GbE o superior.
+
+Software
+Software de streaming: El software de streaming es el software que se encarga de distribuir el contenido multimedia a los usuarios. Hay una amplia variedad de software de streaming disponible, como:
+Wowza Streaming Engine: Wowza Streaming Engine es un software de streaming popular que ofrece una amplia gama de funciones.
+Red5 Pro: Red5 Pro es otro software de streaming popular que es conocido por su escalabilidad y rendimiento.
+Nginx-rtmp: Nginx-rtmp es un software de streaming gratuito y de código abierto que es una buena opción para servidores de bajo presupuesto.
+Sistemas operativos: El sistema operativo es el software que controla el servidor. Se pueden usar diferentes sistemas operativos para servidores de streaming, como:
+Windows Server: Windows Server es un sistema operativo popular para servidores de streaming que ofrece una interfaz gráfica intuitiva y una amplia gama de herramientas de administración.
+Linux Server: Linux Server es una opción más flexible y segura que Windows Server. Algunos ejemplos populares son Ubuntu Server, CentOS y Red Hat Enterprise Linux.
+Unix: Unix es un sistema operativo robusto y escalable, pero puede ser complejo de administrar.
+
+Consideraciones al elegir hardware y software
+Presupuesto: El presupuesto es un factor importante para considerar al elegir hardware y software para un servidor de streaming.
+Número de usuarios: El número de usuarios que se espera que accedan al servidor de streaming determinará la cantidad de hardware y software que se necesita.
+Tipo de contenido: El tipo de contenido que se va a transmitir también determinará la cantidad de hardware y software que se necesita.
+Requisitos de seguridad: Es importante considerar los requisitos de seguridad al elegir hardware y software para un servidor de streaming.
+Tecnologías de virtualización y contenedores
+Virtualización: Permite ejecutar varios sistemas operativos en un mismo servidor físico. Algunas tecnologías de virtualización populares son VMware vSphere, Microsoft Hyper-V y KVM.
+Contenedores: Permiten empaquetar aplicaciones y sus dependencias en un único paquete ligero y portable. Algunas tecnologías de contenedores populares son Docker y Kubernetes.
+Interconexión para el servidor
+Configuración de red: El servidor debe tener una dirección IP estática y estar conectado a una red con suficiente ancho de banda.
+Protocolos de red: Se utilizan protocolos como TCP/IP, DNS y DHCP para gestionar la comunicación entre el servidor y los usuarios.
+Enrutamiento y conmutación: Se utilizan routers y switches para conectar el servidor a la red y distribuir el tráfico de forma eficiente.
+VLANs y VPNs: Se pueden utilizar VLANs para segmentar la red y VPNs para crear una conexión segura entre el servidor y los usuarios.
+
+
+
+
+Tecnologías de almacenamiento
+Sistemas de archivos: Se utilizan sistemas de archivos como NTFS, ext4 y ZFS para organizar y administrar los datos almacenados en el servidor.
+RAID: Se utiliza RAID para proteger los datos contra fallos en los discos duros.
+NAS y SAN: Se pueden utilizar NAS y SAN para aumentar la capacidad de almacenamiento del servidor.
+Seguridad de servidores
+Gestión de identidades y accesos: Es importante controlar quién tiene acceso al servidor y a los datos que contiene.
+Cifrado de datos: Se pueden utilizar algoritmos de cifrado para proteger los datos almacenados en el servidor.
+Configuración de firewalls: Se pueden utilizar firewalls para bloquear el acceso no autorizado al servidor.
+Detección de intrusos: Se pueden utilizar sistemas de detección de intrusos para identificar y prevenir ataques al servidor.
+Parcheo de seguridad: Es importante mantener el software del servidor actualizado con los últimos parches de seguridad.
+Amenazas comunes y vulnerabilidades de seguridad
+Malware: El malware es un software malicioso que puede infectar el servidor y robar datos o dañar el sistema.
+Ataques de phishing: Los ataques de phishing intentan engañar a los usuarios para que revelen sus credenciales de acceso al servidor.
+Ataques DDoS: Los ataques DDoS intentan sobrecargar el servidor con tráfico para que no pueda responder a las solicitudes legítimas.
+Vulnerabilidades de software: Las vulnerabilidades de software son errores en el software del servidor que pueden ser explotados por los atacantes.
+Mejores prácticas para proteger los servidores
+Mantener el software actualizado: Es importante mantener el software del servidor actualizado con los últimos parches de seguridad.
+Utilizar contraseñas seguras: Es importante utilizar contraseñas seguras para proteger el acceso al servidor.
+Restringir el acceso al servidor: Es importante restringir el acceso al servidor a las personas que lo necesitan.
+Realizar copias de seguridad regularmente: Es importante
