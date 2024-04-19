@@ -1,5 +1,4 @@
 import nltk
-from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
