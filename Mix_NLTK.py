@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from colorama import init, Fore, Style
-
 init()
 
 def obtener_contenido_pagina(url):
